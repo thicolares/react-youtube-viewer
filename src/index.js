@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 
 // Since it's our own code, not a external lib,
 // we must to set the full reference so far
-import SearchBar from './components/search_bar';
+import SearchBar from './components/search-bar';
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
 
