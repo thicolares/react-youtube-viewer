@@ -1,3 +1,5 @@
+const Dotenv = require('dotenv-webpack');
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -24,5 +26,8 @@ module.exports = {
     port: 7000,
     historyApiFallback: true,
     contentBase: './'
-  }
+  },
+  plugins: [
+      new Dotenv()
+  ]
 };

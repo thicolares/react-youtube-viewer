@@ -11,7 +11,7 @@ import ReactDOM from 'react-dom';
 // THIS DO NOT CREATE A COMPONENT. JUST A TYPE (like a Class)
 // You still need to instantiate it
 const App = () => {
-    return <div>Hi again!</div>
+    return <div>{process.env.YOUTUBE_API_KEY}Hi again!</div>
 }
 // or:
 // const App = () => <div>Hi again!</div>
