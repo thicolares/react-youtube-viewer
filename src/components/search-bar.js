@@ -1,8 +1,11 @@
 import React from 'react';
 
-const SearchBar = () => {
-    return <input />
-};
+class SearchBar extends React.Component {
+    render() {
+        return <input/>;
+    }
+}
 
-// any code that imports search_bar, will have access only to SearchBar
+// any code that imports search-bar, will have access only to SearchBar
 export default SearchBar;
+
