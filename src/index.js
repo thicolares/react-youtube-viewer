@@ -10,9 +10,12 @@ import ReactDOM from 'react-dom';
 // This component should produce some HTML
 // THIS DO NOT CREATE A COMPONENT. JUST A TYPE (like a Class)
 // You still need to instantiate it
-const App = function() {
-    return <div>Hi!</div>;
+const App = () => {
+    return <div>Hi again!</div>
 }
+// or:
+// const App = () => <div>Hi again!</div>
+
 
 // Take this component's generated HTML
 // and put it on the page (in the DOM)
