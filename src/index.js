@@ -1,16 +1,21 @@
 import React from 'react';
 // go find the library react and assign it to the variable React
+/// Used to create and manage components
 
 import ReactDOM from 'react-dom';
-// actually render the DOM is in a separated library
+// Used to render the DOM (is in a separated library)
 
 
 // Create a new component
 // This component should produce some HTML
+// THIS DO NOT CREATE A COMPONENT. JUST A TYPE (like a Class)
+// You still need to instantiate it
 const App = function() {
     return <div>Hi!</div>;
 }
 
 // Take this component's generated HTML
 // and put it on the page (in the DOM)
-ReactDOM.render(App)
+// App --> stands for a TYPE of component. Like a class
+// <App></App> OR <App /> --> INSTANTIATE a component
+ReactDOM.render(<App />)
