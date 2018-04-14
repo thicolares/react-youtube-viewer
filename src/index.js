@@ -5,13 +5,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // Used to render the DOM (is in a separated library)
 
+const API_KEY = process.env.YOUTUBE_API_KEY;
 
 // Create a new component
 // This component should produce some HTML
 // THIS DO NOT CREATE A COMPONENT. JUST A TYPE (like a Class)
 // You still need to instantiate it
 const App = () => {
-    return <div>{process.env.YOUTUBE_API_KEY}Hi again!</div>
+    return <div>Hi again!</div>
 }
 // or:
 // const App = () => <div>Hi again!</div>
