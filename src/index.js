@@ -5,6 +5,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // Used to render the DOM (is in a separated library)
 
+// Since it's our own code, not a external lib,
+// we must to set the full reference so far
+import SearchBar from './components/search_bar';
+
 const API_KEY = process.env.YOUTUBE_API_KEY;
 
 // Create a new component
@@ -12,7 +16,11 @@ const API_KEY = process.env.YOUTUBE_API_KEY;
 // THIS DO NOT CREATE A COMPONENT. JUST A TYPE (like a Class)
 // You still need to instantiate it
 const App = () => {
-    return <div>Hi again!</div>
+    return (
+        <div>
+            <SearchBar/>
+        </div>
+    )
 }
 // or:
 // const App = () => <div>Hi again!</div>
