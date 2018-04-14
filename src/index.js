@@ -16,6 +16,9 @@ const App = function() {
 
 // Take this component's generated HTML
 // and put it on the page (in the DOM)
+
 // App --> stands for a TYPE of component. Like a class
 // <App></App> OR <App /> --> INSTANTIATE a component
-ReactDOM.render(<App />)
+
+// And you must to set a target HTML element
+ReactDOM.render(<App />, document.querySelector('.container'))
