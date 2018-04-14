@@ -1,3 +1,6 @@
+import React from 'react';
+// go find the library react and assign it to the variable React
+
 // Create a new component
 // This component should produce some HTML
 const App = function() {
