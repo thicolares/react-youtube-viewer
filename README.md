@@ -19,11 +19,11 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 ```
 
 #### Not Familiar with Git?
-Click [here](https://github.com/colares/my-react-youtube-viewer/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Click [here](https://github.com/colares/my-react-youtube-viewer/releases) then download the ```.zip``` file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
 ```
 > npm install
 > npm start
 ```
 
-Based on [ReduxSimplesStarter](https://github.com/StephenGrider/ReduxSimpleStarter).
+Based on [ReduxSimpleStarter](https://github.com/StephenGrider/ReduxSimpleStarter).
