@@ -33,9 +33,9 @@ class App extends Component {
     render() {
         return (
             <div>
-                <SearchBar/>
-                <VideoDetail/>
-                <VideoList videos={this.state.videos}/>
+                <SearchBar />
+                <VideoDetail video={this.state.videos[0]} />
+                <VideoList videos={this.state.videos} />
             </div>
         )
     }
