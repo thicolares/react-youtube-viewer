@@ -9,6 +9,7 @@ import ReactDOM from 'react-dom';
 // we must to set the full reference so far
 import SearchBar from './components/search-bar';
 import VideoList from './components/video-list';
+import VideoDetail from './components/video-detail'
 
 import YTSearch from 'youtube-api-search';
 
@@ -33,6 +34,7 @@ class App extends Component {
         return (
             <div>
                 <SearchBar/>
+                <VideoDetail/>
                 <VideoList videos={this.state.videos}/>
             </div>
         )
