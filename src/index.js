@@ -13,16 +13,21 @@ import YTSearch from 'youtube-api-search';
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
 
-YTSearch({key: API_KEY, term: 'surfboards'}, function(data){
-    console.log(data);
-});
-
 // Create a new component
 // This component should produce some HTML
 // THIS DO NOT CREATE A COMPONENT. JUST A TYPE (like a Class)
 // You still need to instantiate it
-
 class App extends Component {
+    constructor(props) {
+        super(props)
+
+        this.state = { videos: [] };
+
+        YTSearch({key: API_KEY, term: 'surfboards'}, videos => {
+            this.setState({ videos });
+        });
+    }
+
     render() {
         return (
             <div>
