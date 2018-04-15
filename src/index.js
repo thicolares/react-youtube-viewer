@@ -9,7 +9,13 @@ import ReactDOM from 'react-dom';
 // we must to set the full reference so far
 import SearchBar from './components/search-bar';
 
+import YTSearch from 'youtube-api-search';
+
 const API_KEY = process.env.YOUTUBE_API_KEY;
+
+YTSearch({key: API_KEY, term: 'surfboards'}, function(data){
+    console.log(data);
+});
 
 // Create a new component
 // This component should produce some HTML
