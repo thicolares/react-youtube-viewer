@@ -1,6 +1,8 @@
 # My React YouTube Viewer
 
-A simple React + Redux app to search and view YouTube videos.
+A simple React app to search and view YouTube videos.
+
+![React YouTube Viewer](docs/react-youtube-viewer-screenshot.png "React YouTube Viewer searching for 'joe satriani satch boogie', selecting the video and playing")
 
 ### Getting Started
 
