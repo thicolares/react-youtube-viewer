@@ -11,7 +11,7 @@ There are two methods for getting started with this repo.
 Docker image is on the way! Tip: all you need is a image with npm in it.
 
 #### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Checkout this repo, install dependencies, then start the **webpack** process with the following:
 
 ```
 > git clone https://github.com/colares/react-youtube-viewer.git
