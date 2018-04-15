@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 // go find the library react and assign it to the variable React
 /// Used to create and manage components
 
@@ -21,13 +21,24 @@ YTSearch({key: API_KEY, term: 'surfboards'}, function(data){
 // This component should produce some HTML
 // THIS DO NOT CREATE A COMPONENT. JUST A TYPE (like a Class)
 // You still need to instantiate it
-const App = () => {
-    return (
-        <div>
-            <SearchBar/>
-        </div>
-    )
+
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <SearchBar/>
+            </div>
+        )
+    }
 }
+
+// const App = () => {
+//     return (
+//         <div>
+//             <SearchBar/>
+//         </div>
+//     )
+// }
 // or:
 // const App = () => <div>Hi again!</div>
 
